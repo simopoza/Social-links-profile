@@ -86,6 +86,7 @@ p {
 }
 
 button {
+	font-weight: 600;
 	height: 35px;
 	border-radius: 10px;
 	border: none;
@@ -98,5 +99,6 @@ button {
 button:focus,
 button:hover {
   cursor: pointer;
-	color: hsl(75, 94%, 57%);
+	color: black;
+	background-color: hsl(75, 94%, 57%);
 }
